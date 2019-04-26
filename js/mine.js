@@ -43,40 +43,39 @@ var door = 0 ;
 //-----------------------------↓鼠标滑轮事件--------------------------------------
 	$(document).on('mousewheel DOMMouseScroll', onMouseScroll);    //计算鼠标滚轮次数
 function onMouseScroll(e){
-	if(door == 1) return;
-    door = 1;
-	setTimeout(opendoor,1510);
+	if (door == 1) return;
+	door = 1;
 	e.preventDefault();
 
     var wheel = e.originalEvent.wheelDelta || -e.originalEvent.detail;
     var delta = Math.max((-len/len), Math.min((len/len), wheel));
-        console.log(door)
+
 
 
 		
 
-	    if(delta > 0)
-	    total++;
-	    else 
-	    total--;            //获得滚到的图片位置
+	    if(delta > 0){
+			if(total == len - 1) {
+				door = 0;
+				return;
+			}
+
+			total++;				//获得滚到的图片位置
+		}
+	    
+	    else{
+			if(total == 0) {
+				door = 0;
+				return;
+			}
+
+			total--; 				//获得滚到的图片位置
+		}			
+	               
 
 	    mydelta = delta;            //把鼠标滑轮滚动方向传出去
 
-	    if(total>len-1)
-	    {
-			setTimeout(opendoor,0);
-	    	total = len-1;
-			return;
-	    }
-
-	    if(total<0)               //定义total值永远不会小于0
-	    {
-	    	total = 0;
-			setTimeout(opendoor,0);
-			return;
-	  
-	    }
-
+		
 
 	    //----------------------------当鼠标滚轮滚动触发以下函数--------------------------------
 	    
@@ -94,7 +93,7 @@ function onMouseScroll(e){
 	    console.log(total);
 	    console.log("------------");
 
-	    console.log(door);
+		setTimeout(opendoor,1500);
     }
 function opendoor(){
 	door = 0;
@@ -114,7 +113,7 @@ function opendoor(){
 function fadebackrgound(){
 
 
-	console.log("asdfsadfasdf");
+
 	var total2 =total-1;
 
     	if(mydelta>0)
