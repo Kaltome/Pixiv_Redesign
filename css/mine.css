@@ -50,26 +50,18 @@
     {
     	position: fixed;
     	left: 192px;
-    	top: 72px;
+    	top: 80px;
         width:1088px;
-        height: 844px;
+        height: 816px;
 
     }
     .main2
     {
     	position: fixed;
-    	left: 192px;
-    	top: 72px;
-    	width:1088px;
-    	height: 844px;
-    }
-    .main2
-    {
-    	position: fixed;
     	left: -1728px;
-    	top: 72px;
+    	top: 80px;
     	width: 1088px;
-    	height: 844px;
+    	height: 816px;
     }
     #background3{
         background-color: black;

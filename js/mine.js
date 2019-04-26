@@ -1,8 +1,8 @@
 
 
-var mysrc=new Array("image/1.png",
-"image/2.png",
-"image/3.png");//存放地址 用于更改地址
+var mysrc=new Array("image/1.jpg",
+"image/2.jpg",
+"image/3.jpg");//存放地址 用于更改地址
 
 var mytitle=new Array("Dancing Lake",
 	"The Raining",
