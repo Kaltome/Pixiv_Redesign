@@ -418,7 +418,7 @@ function changeauthor(){
 }
 function changestitlewithoutdelay(){
 		th=document.getElementById("stitle");
-	th.innerHTML = stitles[total];
+		th.innerHTML = stitles[total];
 	
 }
 
