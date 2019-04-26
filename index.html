@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" name="viewport">
+	<title>Document</title>
+	<script type="text/javascript" src='js/jquery-3.3.1.js'></script>
+	<script type="text/javascript" src='js/bootstrap.js'></script>
+	<script type="text/javascript" src='js/dynamics.js'></script>
+	<script type="text/javascript" src='js/mine.js'></script>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mine.css">
+	
+</head>
+<body>
+    <div id="background"></div>
+    <div id="backgroundimg"></div>
+    <div id="background"></div>
+	<nav class="navbar navbar-default navbar-fixed-top" >
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src=""></a>
+    </div>
+    <div  class="collapse navbar-collapse" id="example-navbar-collapse">
+    	<ul class="nav navbar-nav" id="lili" style="padding-left: 192px">
+    		<div id="logo"><a href="#""><img src="image/logo.png" width="auto" height="auto"></a></div>
+    		
+
+    	</ul>
+    	    
+    	
+        <ul class="nav navbar-nav navbar-right"style="padding-right: 192px" id="topmenu">
+        	<li><a href="#"  class="topmenu">Livenow</a></li>
+    		<li><a href="#"  class="topmenu">Ranking</a></li>
+    		<li><a href="#"  class="topmenu">KizunaAi</a></li>
+        	
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+
+<div id="background3"></div>
+<div id="mytitle">
+
+</div>
+<div id="who">
+
+</div>
+<div id="stitle">Dancing Lorem</div>
+<div id="what">Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+<div id="ico"><img src="image/love.svg" width="24" height="24">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<img src="image/behance.svg" width="24" height="24">
+    	&nbsp;&nbsp;&nbsp;&nbsp;
+    	<img src="image/weibo.svg" width="24" height="24">
+    	&nbsp;&nbsp;&nbsp;&nbsp;
+    	<img src="image/twitter.svg" width="24" height="24">
+    	&nbsp;&nbsp;&nbsp;&nbsp;
+    	<img src="image/facebook.svg" width="24" height="24">
+    </div>
+
+<div id = "mainframe">
+	
+</div>
+
+    
+</body>
+<script type="text/javascript">
+
+	$('#example-navbar-collapse ul li a').click(function(){
+		$('#example-navbar-collapse ul li a').removeClass("active");
+		$(this).addClass("active");
+	});
+    //-----------------------------------创建标签----------------------------------------
+    var i = 0;
+    while(i<len)
+    {
+    $("#backgroundimg").append("<img src='"+ mysrc[len-1-i]+ "'class = 'backgroundimg'"+"id = img"+(len-i-1)+" alt='图片'/>"); 
+    i++;
+    }
+    var j = 2;
+    $("#mainframe").append("<img src='"+ mysrc[0]+ "'class = 'main'"+"id = mainimg"+1+" alt='图片'/>");
+    while(j<len+1)
+    {
+    $("#mainframe").append("<img src='"+ mysrc[j-1]+ "'class = 'main2'"+"id = mainimg"+(j)+" alt='图片'/>"); 
+    j++;
+    } 
+    var t = 2;
+    $("#mytitle").append("<div class='title'"+"id = 'title1'>"+mytitle[0]+"<div/>"); 
+     while(t<len+1)
+    {
+    $("#mytitle").append("<div class='title2'"+"id = 'title"+t+"'>"+mytitle[t-1]+"<div/>"); 
+    t++;
+    }
+    var a = 2;
+    $("#who").append("<div class='stitle'"+"id = 'stitle1'>"+"<img src="+authorsrc[0]+" width = '24px' height = '24px'>"+"&nbsp;&nbsp;&nbsp;"+author[0]+date[0]+"<div/>");
+     while(a<len+1)
+    {
+    $("#who").append("<div class='stitle2'"+"id = 'stitle"+a+"'>"+"<img src="+authorsrc[a-1]+" width = '24px' height = '24px'>"+"&nbsp;&nbsp;&nbsp;"+author[a-1]+date[a-1]+"<div/>"); 
+    a++;
+    } 
+   
+
+</script>
+</html>
