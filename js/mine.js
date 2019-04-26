@@ -45,7 +45,7 @@ var door = 0 ;
 function onMouseScroll(e){
 	if(door == 1) return;
     door = 1;
-	setTimeout(opendoor,1600);
+	setTimeout(opendoor,1510);
 	e.preventDefault();
 
     var wheel = e.originalEvent.wheelDelta || -e.originalEvent.detail;
