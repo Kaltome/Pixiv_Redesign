@@ -8,7 +8,7 @@
 
 浏览地址：[http://kaltome.vipgz1.idcfengye.com](http://kaltome.vipgz1.idcfengye.com)
 
-![](https://github.com/Kaltome/Pixiv-Redesign/blob/master/Showingtest.png)
+![](https://github.com/Kaltome/Pixiv-Redesign/blob/master/Showingtest.jpg)
 
 
 -------------
