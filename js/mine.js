@@ -1,25 +1,30 @@
-
+//---------------------次元皇尊力宙帝你太牛逼了！！！！！！！！！！！！！！
 
 var mysrc=new Array("image/1.jpg",
 "image/2.jpg",
 "image/3.jpg",
-"image/4.jpg");//存放地址 用于更改地址
+"image/4.jpg"
+"image/5.jpg");//存放地址 用于更改地址
 
 var mytitle=new Array("Dancing Lake",
 	"The Raining",
 	"Butterflies Fly",
-	"The Redpanda");
+	"The Redpanda",
+	"Design Test");
 var authorsrc = new Array("image/author1.png",
 	"image/author2.png",
+	"image/author3.png",
 	"image/author3.png",
 	"image/author3.png");
 
 var date = new Array("  26 Jul 2017",
 	"  26 Jul 2017",
 	"  26 Jul 2017",
-	"  26 Jul 2017");
+	"  26 Jul 2017",
+	"  22 Apr 2019");
 
 var author = new Array("Repn Ka  |",
+	"Repn Ka  |",
 	"Repn Ka  |",
 	"Repn Ka  |",
 	"Repn Ka  |");
@@ -27,7 +32,8 @@ var author = new Array("Repn Ka  |",
 var stitles = new Array("Dancing Lorem",
 	"Lorem Ipsum Girl",
 	"Butterflies with Ipsum",
-	"A lovely Redpanda");
+	"A lovely Redpanda",
+	"National Geography");
 
 var len = mysrc.length;//数组长度
 
