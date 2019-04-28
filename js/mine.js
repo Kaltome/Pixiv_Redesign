@@ -2,26 +2,32 @@
 
 var mysrc=new Array("image/1.jpg",
 "image/2.jpg",
-"image/3.jpg");//存放地址 用于更改地址
+"image/3.jpg",
+"image/4.jpg");//存放地址 用于更改地址
 
 var mytitle=new Array("Dancing Lake",
 	"The Raining",
-	"Butterflies Fly");
+	"Butterflies Fly",
+	"The Redpanda");
 var authorsrc = new Array("image/author1.png",
 	"image/author2.png",
+	"image/author3.png",
 	"image/author3.png");
 
 var date = new Array(" 26 Jul 2017",
+	" 26 Jul 2017",
 	" 26 Jul 2017",
 	" 26 Jul 2017");
 
 var author = new Array("Repn Ka |",
 	"Repn Ka |",
+	"Repn Ka |",
 	"Repn Ka |");
 	
 var stitles = new Array("Dancing Lorem",
 	"Lorem Ipsum Girl",
-	"Butterflies with Ipsum");
+	"Butterflies with Ipsum",
+	"The Lorem Redpanda");
 
 var len = mysrc.length;//数组长度
 
@@ -39,6 +45,9 @@ var titledelay = 1500;     //设置延时
 
 var door = 0 ;
 
+
+console.log("length:");
+console.log(len);
 
 //-----------------------------↓鼠标滑轮事件--------------------------------------
 	$(document).on('mousewheel DOMMouseScroll', onMouseScroll);    //计算鼠标滚轮次数
