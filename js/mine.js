@@ -14,20 +14,20 @@ var authorsrc = new Array("image/author1.png",
 	"image/author3.png",
 	"image/author3.png");
 
-var date = new Array(" 26 Jul 2017",
-	" 26 Jul 2017",
-	" 26 Jul 2017",
-	" 26 Jul 2017");
+var date = new Array("  26 Jul 2017",
+	"  26 Jul 2017",
+	"  26 Jul 2017",
+	"  26 Jul 2017");
 
-var author = new Array("Repn Ka |",
-	"Repn Ka |",
-	"Repn Ka |",
-	"Repn Ka |");
+var author = new Array("Repn Ka  |",
+	"Repn Ka  |",
+	"Repn Ka  |",
+	"Repn Ka  |");
 	
 var stitles = new Array("Dancing Lorem",
 	"Lorem Ipsum Girl",
 	"Butterflies with Ipsum",
-	"The Lorem Redpanda");
+	"A lovely Redpanda");
 
 var len = mysrc.length;//数组长度
 
