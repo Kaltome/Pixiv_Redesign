@@ -3,7 +3,7 @@
 var mysrc=new Array("image/1.jpg",
 "image/2.jpg",
 "image/3.jpg",
-"image/4.jpg"
+"image/4.jpg"，
 "image/5.jpg");//存放地址 用于更改地址
 
 var mytitle=new Array("Dancing Lake",
