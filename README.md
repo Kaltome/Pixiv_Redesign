@@ -1,4 +1,4 @@
-# Pixiv-Redesign
+# Pixiv_Redesign
 
 ### 特别鸣谢！！：次元皇尊力宙帝！！！！！！！！！！！
 
