@@ -36,16 +36,7 @@
     	background-color: #000000;
     }
 
-    .backgroundimg{
-    	width: 100% ;
-    	height: 100%;
-    	position: fixed;
-    -webkit-filter: blur(20px);
-       -moz-filter: blur(20px);
-        -ms-filter: blur(20px);    
-            filter: blur(20px);
-			opacity: 0.15;
-    }
+
 
     .main
     {
@@ -79,6 +70,26 @@
         height: 96px;
         margin: auto;
     }
+	
+	.backgroundimg{
+    	width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    	position: fixed;
+		opacity: 0.12;
+    -webkit-filter: blur(24px);
+       -moz-filter: blur(24px);
+        -ms-filter: blur(24px);    
+            filter: blur(24px);
+
+    }
+	#sliderail{
+		width: 100% ;
+    	height: 784px;
+    	position: fixed;
+		top: 96px;
+		opacity: 0.05;
+	}
 
     .frame{
         position: fixed;

@@ -16,9 +16,10 @@
 	
 </head>
 <body>
-<div>
-    <div id="background"></div>
+
+
     <div id="backgroundimg"></div>
+	<img src = "image/sliderail.jpg" id="sliderail" ></img>
     <div id="background"></div>
 	<nav class="navbar navbar-default navbar-fixed-top" >
     <div class="container-fluid">
@@ -79,7 +80,7 @@
 	
 </div>
 
-</div>
+
 </body>
 <script type="text/javascript">
 
@@ -115,7 +116,11 @@
     $("#who").append("<div class='stitle2'"+"id = 'stitle"+a+"'>"+"<img src="+authorsrc[a-1]+" width = '24px' height = '24px'>"+"&nbsp;&nbsp;&nbsp;"+author[a-1]+date[a-1]+"<div/>"); 
     a++;
     } 
+	
+	for(var ii = 1; ii < len; ii++){
+		$("#img"+ii).fadeOut(0);
+	}
    
-
+   
 </script>
 </html>

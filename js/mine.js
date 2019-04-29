@@ -52,8 +52,8 @@ var titledelay = 1500;     //设置延时
 var door = 0 ;
 
 
-console.log("length:");
-console.log(len);
+
+
 
 //-----------------------------↓鼠标滑轮事件--------------------------------------
 	$(document).on('mousewheel DOMMouseScroll', onMouseScroll);    //计算鼠标滚轮次数
@@ -129,16 +129,23 @@ function fadebackrgound(){
 
 
 
-	var total2 =total-1;
+	var totallast = total - 1;
+	var totalnext = total + 1;
 
+		console.log("changeimg:");
+		console.log(total);
+		
     	if(mydelta>0)
 	    {
-	    	$("#img"+total2).fadeOut(delay);
+			$("#img"+total).fadeIn(delay);
+	    	$("#img"+totallast).fadeOut(delay);
+			
 	    }
 	    if(mydelta<0)
 	    {
 	    	$("#img"+total).fadeIn(delay);
-    }
+			$("#img"+totalnext).fadeOut(delay);
+		}
 
 }
 
@@ -242,6 +249,8 @@ function changeimg(){
 //---------------------------------------------------------------------------------
 	}
 }
+
+
 function changetitle(){
 	var fuck = total+2;
 	var next = total+1;
