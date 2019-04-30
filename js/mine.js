@@ -34,6 +34,12 @@ var stitles = new Array("Dancing Lorem",
 	"Butterflies with Ipsum",
 	"A lovely Redpanda",
 	"National Geography");
+	
+var essays = new Array("Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sad do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+	"Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sad do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+	"Lorem Ipsum is simply dummy text of the printing and typesetting industry . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.");
 
 var len = mysrc.length;//数组长度
 
@@ -442,6 +448,8 @@ function changeauthor(){
 function changestitlewithoutdelay(){
 		th=document.getElementById("stitle");
 		th.innerHTML = stitles[total];
+		te = document.getElementById("what");
+		te.innerHTML = essays[total];
 	
 }
 
