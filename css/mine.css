@@ -76,7 +76,7 @@
         top: 50%;
         transform: translateY(-50%);
     	position: fixed;
-		opacity: 0.16;
+		opacity: 0.18;
     -webkit-filter: blur(24px);
        -moz-filter: blur(24px);
         -ms-filter: blur(24px);    
@@ -88,7 +88,7 @@
     	height: 784px;
     	position: fixed;
 		top: 96px;
-		opacity: 0.12;
+		opacity: 0.10;
 	}
 
     .frame{
@@ -118,7 +118,7 @@
         font-size: 20px;
         color:rgba(255,255,255,1);
         position: fixed;
-        top: 392px;
+        top: 400px;
         left: 1344px;
 
     }
@@ -127,7 +127,7 @@
         top: 168px;
         left: 1344px;
         font-weight:bold;
-        font-size: 56px;
+        font-size: 52px;
         color:rgba(255,255,255,1);
         width: 1000px;
     }
@@ -136,7 +136,7 @@
         top: 168px;
         left: 1088px;
         font-weight:bold;
-        font-size: 56px;
+        font-size: 52px;
         color:rgba(255,255,255,1);
         width: 1000px;
         display: none;
@@ -144,7 +144,7 @@
     .stitle
     {
         position: fixed;
-        top: 258px;
+        top: 248px;
         left: 1344px;
         font-weight:normal;
         color:rgba(255,255,255,0.5);
@@ -155,7 +155,7 @@
     .stitle2
     {
         position: fixed;
-        top: 258px;
+        top: 248px;
         left: 1088px;
         font-weight:normal;
         color:rgba(255,255,255,0.5);

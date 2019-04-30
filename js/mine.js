@@ -358,7 +358,7 @@ function changeauthor(){
     }, {
         type: dynamics.bezier,
 		duration: titledelay,
-        points: [{"x":0,"y":0,"cp":[{"x":0.85,"y":0}]},{"x":1,"y":1,"cp":[{"x":0.0,"y":1}]}]
+        points: [{"x":0,"y":0,"cp":[{"x":0.85,"y":0}]},{"x":1,"y":1,"cp":[{"x":0.00,"y":1}]}]
     });
 	
 	if(total==1)
@@ -370,7 +370,7 @@ function changeauthor(){
     }, {
         type: dynamics.bezier,
 		duration: titledelay,
-        points: [{"x":0,"y":0,"cp":[{"x":0.85,"y":0}]},{"x":1,"y":1,"cp":[{"x":0.0,"y":1}]}]
+        points: [{"x":0,"y":0,"cp":[{"x":0.85,"y":0}]},{"x":1,"y":1,"cp":[{"x":0.00,"y":1}]}]
     });
         setTimeout(function(){$('#stitle'+total).fadeOut(1);},fadetime);
         setTimeout(function(){$('#stitle'+next).fadeIn(1);},fadetime);
@@ -383,7 +383,7 @@ function changeauthor(){
     }, {
         type: dynamics.bezier,
 		duration: titledelay,
-        points: [{"x":0,"y":0,"cp":[{"x":0.85,"y":0}]},{"x":1,"y":1,"cp":[{"x":0.0,"y":1}]}]
+        points: [{"x":0,"y":0,"cp":[{"x":0.85,"y":0}]},{"x":1,"y":1,"cp":[{"x":0.00,"y":1}]}]
     });
 
 		setTimeout(function(){$('#stitle'+total).fadeOut(1);},fadetime);
