@@ -76,7 +76,7 @@
         top: 50%;
         transform: translateY(-50%);
     	position: fixed;
-		opacity: 0.12;
+		opacity: 0.16;
     -webkit-filter: blur(24px);
        -moz-filter: blur(24px);
         -ms-filter: blur(24px);    
@@ -88,7 +88,7 @@
     	height: 784px;
     	position: fixed;
 		top: 96px;
-		opacity: 0.05;
+		opacity: 0.12;
 	}
 
     .frame{
