@@ -6,7 +6,7 @@
 
 鼠标上下滚动来感受吧~
 
-浏览地址[桌面端]：[http://kaltome.vipgz1.idcfengye.com](http://kaltome.vipgz1.idcfengye.com)
+浏览地址[桌面端]：[http://kaltome.vipgz1.idcfengye.com/Pixiv_Redesign/index.html](http://kaltome.vipgz1.idcfengye.com/Pixiv_Redesign/index.html)
 
 ![](https://github.com/Kaltome/Pixiv-Redesign/blob/master/Showingtest.jpg)
 
